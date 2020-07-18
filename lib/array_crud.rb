@@ -7,8 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-   randomnumbers = ["2", "5", "7", "9"]
-   radnomnumbers << "10"
+   newarray = [array]
+   newarray << element
 end
 
 def add_element_to_start_of_array(array, element)
